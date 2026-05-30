@@ -1,9 +1,17 @@
 ---
 name: restraint
-description: "Advanced AI safety system with quantified metrics, automatic dependency detection, backup management, test failure detection, and strict confirmation protocols"
+description: "让AI更克制：精确执行请求，不扩展范围，不猜测意图，危险操作需确认"
+version: 1.0.0
+metadata:
+  openclaw:
+    always: true
+    emoji: "🦞"
+    requires:
+      bins: []
+    envVars: []
 ---
 
-# Restraint Skill - Final Enhanced System
+# Restraint Skill - AI 克制技能
 
 ## Core Principle
 Do exactly what was requested. Do not expand scope unless explicitly asked.
